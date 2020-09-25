@@ -3,7 +3,7 @@ var http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Ma super pyramide');
+  res.end('Ma super pyramide2');
 }).listen(8080);
 
 const readline = require('readline').createInterface({
@@ -11,7 +11,7 @@ const readline = require('readline').createInterface({
     output: process.stdout
   });
   
-  readline.question('Salut, bienvenue dans ma super pyramide ! Combien d"etages veux-tu ?  ', nb => {
+  readline.question('Salut, bienvenue dans ma super pyramide2 ! Combien d"etages veux-tu2 ?  ', nb => {
     
     function Pyramid() {
         
